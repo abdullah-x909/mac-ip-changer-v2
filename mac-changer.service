@@ -1,0 +1,7 @@
+[Unit]
+Description=Change MAC address periodically
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/mac_changer.sh
