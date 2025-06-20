@@ -1,10 +1,40 @@
-2. 🛠 Make Scripts Executable
+*mac-ip-changer-v2*
+
+mac-ip-changer-v2 is a simple tool designed to change both the MAC address and IP address of your system, enabling you to easily mask your network identity for privacy and security purposes. This tool is intended for macOS and Linux users who need to quickly modify their network configurations.
+Features
+
+    Change MAC Address: Randomly or manually change the MAC address of your network interface.
+    Change IP Address: Modify the IP address of your system to either a static address or one from a specified range.
+    Support for Multiple Interfaces: Supports network interfaces such as Wi-Fi, Ethernet, and more.
+    Cross-Platform: Works on both macOS and Linux distributions.
+
+Requirements
+
+Before using mac-ip-changer-v2, ensure that your system meets the following requirements:
+
+    macOS or Linux (other Unix-like OSes may also work)
+    sudo privileges (for changing network settings)
+Step 1: Clone the Repository
+
+Clone the repository to your local machine using Git:
+
+   ```   
+      git clone https://github.com/abdullah-x909/mac-ip-changer-v2.git
+ cd mac-ip-changer-v2
+```
+
+
+
+Step 2: . 🛠 Make Scripts Executable
 
 ```
 chmod +x setup.sh
 chmod +x change_tor_ip.sh
 chmod +x mac_changer.sh
 ```
+
+
+
 ✅ 3. 🚀 Run the Setup Script
 
 This will:
